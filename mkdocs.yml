@@ -1,0 +1,26 @@
+site_name: SIGA - Documentación
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: blue
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+
+nav:
+  - Inicio: index.md
+  - Guía de Usuario: user-guide/
+  - API: api/
+  - Arquitectura: architecture/
+  - Onboarding: onboarding/
+
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist
